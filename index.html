@@ -11,6 +11,22 @@
     <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body id="top-of-page">
+    <header>
+        <nav class="NavigationBar-container">
+            <div class="Logo-textlogo-container">
+                <img src="assets/logo.png" alt="website logo" class="logo">
+                <span class="text-logo">FLEX</span>
+            </div>
+            <div class="NavMenus-container">
+                <a href="#" class="active-menu">home</a>
+                <a href="#our-services-section">services</a>
+                <a href="#our-portfolio-section">Portfolio</a>
+                <a href="#our-team-section">Team</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+        </nav>
+    </header>
     <main>
     <!-- home section starts here  -->
     <section id="home-section">
@@ -21,22 +37,7 @@
             <div class="icons-container"><i class="fab fa-dribbble"></i></div>
             <div class="icons-container"><i class="fab fa-linkedin-in"></i></div>
         </div>
-        <header>
-            <nav class="NavigationBar-container">
-                <div class="Logo-textlogo-container">
-                    <img src="assets/logo.png" alt="website logo" class="logo">
-                    <span class="text-logo">FLEX</span>
-                </div>
-                <div class="NavMenus-container">
-                    <a href="#" class="active-menu">home</a>
-                    <a href="#our-services-section">services</a>
-                    <a href="#our-portfolio-section">Portfolio</a>
-                    <a href="#our-team-section">Team</a>
-                    <a href="gallery.html">Gallery</a>
-                    <a href="#contact-section">Contact</a>
-                </div>
-            </nav>
-        </header>
+       
         <div class="Home-content-container">
             <h1 class="home-heading section-heading">Digital marketing</h1>
             <hr>
@@ -193,10 +194,10 @@
                 </article>
             </div>
             <div class="contactform">
-               <p class="input-box"> Your name</p>
-               <p class="input-box"> Your email</p>
-               <p class="input-box"> Subject</p>
-               <p class="message-box input-box">Message</p>
+               <input type="text" class="input-box" placeholder="Your name">
+               <input type="email" class="input-box" placeholder="Your email">
+               <input type="text" class="input-box" placeholder="Subject">
+               <input type="text" class="input-box message-box" placeholder="Your message">
                <button class="form-btn">
                    <a href="#">send message</a>
                </button>
